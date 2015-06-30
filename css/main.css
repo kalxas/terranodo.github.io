@@ -295,16 +295,16 @@ ul.nostyle i {
 @media (min-width: 992px){
 
   #home-page {
-    background: url(../img/background-home-02.png);
+    background: url(../img/background-map.png);
     background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-size: auto;
     overflow: hidden;
     width: 100%;
-    height: 800px;
+    height: 550px;
     left: 0;
-    background-color: #9CD8DC;
+    background-color: #b4cc35;
     margin-top: -100px;
   }
   #home-page .home-inner {
@@ -323,8 +323,8 @@ ul.nostyle i {
     text-align: center;
     line-height: 1.2;
     font-weight: 400;
-    color: #fff;
-    text-shadow: 1px 1px 5px #1A1A1A;
+    color: #000;
+    text-shadow: 1px 1px 3px #1A1A1A;
   }
   #home-page .home-content p {
     margin-top: 0px;
