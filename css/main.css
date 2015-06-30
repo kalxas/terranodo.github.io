@@ -425,7 +425,7 @@ ul.nostyle i {
     font-size: 1.1em;
   }
   #about-icon img {
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 30px;
   }
   #about h4 {
@@ -671,7 +671,7 @@ ul.nostyle i {
 @media (min-width: 992px) {
 
   #team {
-    color: #7E120F;
+    color: #1a1a1a;
     padding-top: 150px;
     padding-bottom: 150px;
     background-color: #EDF1D4;
@@ -691,7 +691,7 @@ ul.nostyle i {
     font-family: 'Montserrat', sans-serif;
   }
   #team p {
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: 'Lato',sans-serif;
     color: #1A1A1A;
   }
@@ -716,6 +716,19 @@ ul.nostyle i {
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+  }
+  #team blockquote {
+    padding: 20px 0 20px 0;
+    margin: 60px;
+    color: #50c4c9;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 4em;
+    font-style: italic;
+/*    border-left: 5px solid #50c4c9;*/
+  }
+  #team #quote p {
+    font-size: 1.2em;
   }
 }
 
